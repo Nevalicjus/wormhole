@@ -1,1 +1,1 @@
-# wormholebot
+# wormhole
