@@ -1,0 +1,27 @@
+{
+  "General": {
+    "DeleteInvocations": 0,
+    "AdminRoles": [],
+    "ServerLog": 0,
+    "Prefix": "i!",
+    "Analytics": false,
+    "AnalyticsLog": 0,
+    "MaxWs": 5,
+    "MaxHs": 5,
+    "NotifOwnerOnWh": true
+  },
+  "Whs": {
+    "Ws": {
+      "example-worm-channel-id": {
+        "name": "None",
+        "hole-channel-id": 0
+      }
+    },
+    "Hs": {
+      "example-hole-channel-id": {
+        "name": "None",
+        "worm-channel-id": 0
+      }
+    }
+  }
+}
