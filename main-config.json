@@ -1,0 +1,13 @@
+{
+  "DiscordToken": "",
+  "Prefix": "wh!",
+  "LogFile": "log.txt",
+  "OwnerUsers": [],
+  "DeleteOwnerCommandsInvos": 0,
+  "MaxSavedConfigs": 10,
+  "MaxWs": 5,
+  "MaxHs": 5,
+  "WHAPI": false,
+  "WHAPIAddr": "0.0.0.0",
+  "WHAPIPort": 0
+}
