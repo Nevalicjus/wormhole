@@ -262,7 +262,7 @@ class Owner(commands.Cog):
 
     def constructResponseEmbedBase(self, desc):
         embed = discord.Embed(title = f"**Wormhole**", description = desc, color = discord.Colour.from_rgb(119, 137, 218))
-        embed.set_thumbnail(url="https://n3v.xyz/icons/wormhole-logo.png")
+        embed.set_thumbnail(url="https://nevalicj.us/icons/wormhole-logo.png")
         now = datetime.datetime.now()
         embed.set_footer(text = f"{now.strftime('%H:%M')} / {now.strftime('%d/%m/%y')} | Wormhole made with \u2764\ufe0f by Nevalicjus")
 

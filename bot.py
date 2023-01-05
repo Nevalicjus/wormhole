@@ -101,7 +101,7 @@ async def status_task():
                 members += guild.member_count
             await client.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.playing, name=f"on {len(client.guilds)} guilds with {members} members"))
             await asyncio.sleep(30)
-            await client.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.playing, name="wh!help | https://n3v.xyz"))
+            await client.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.playing, name="wh!help | https://nevalicj.us"))
             await asyncio.sleep(30)
         except:
             pass

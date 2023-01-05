@@ -125,8 +125,8 @@ class Other(commands.Cog):
                 saved_config = json.load(f)
 
             embed = discord.Embed(title = f"**Saved Config\n{fetched_config[17:19]}:{fetched_config[14:16]}:{fetched_config[11:13]} | {fetched_config[8:10]}/{fetched_config[5:7]}/{fetched_config[0:4]}**", color = discord.Colour.from_rgb(119, 137, 218))
-            embed.set_thumbnail(url="https://n3v.xyz/icons/wormhole-logo.png")
-            embed.set_footer(text = f"Support Server - https://n3v.xyz/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
+            embed.set_thumbnail(url="https://nevalicj.us/icons/wormhole-logo.png")
+            embed.set_footer(text = f"Support Server - https://nevalicj.us/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
 
             for setting in saved_config['General']:
                 embed.add_field(name = f"{setting}:", value = f"{saved_config['General'][setting]}", inline = False)
@@ -134,8 +134,8 @@ class Other(commands.Cog):
             await ctx.send(embed = embed)
 
             embed = discord.Embed(title = f"**Saved Config's Invites\n{fetched_config[17:19]}:{fetched_config[14:16]}:{fetched_config[11:13]} | {fetched_config[8:10]}/{fetched_config[5:7]}/{fetched_config[0:4]}**", color = discord.Colour.from_rgb(119, 137, 218))
-            embed.set_thumbnail(url="https://n3v.xyz/icons/wormhole-logo.png")
-            embed.set_footer(text = f"Support Server - https://n3v.xyz/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
+            embed.set_thumbnail(url="https://nevalicj.us/icons/wormhole-logo.png")
+            embed.set_footer(text = f"Support Server - https://nevalicj.us/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
 
             no_fields = 0
             for inv in saved_config['Invites']:
@@ -169,8 +169,8 @@ class Other(commands.Cog):
                 config = json.load(f)
 
             embed = discord.Embed(title = f"**Current Config**", color = discord.Colour.from_rgb(119, 137, 218))
-            embed.set_thumbnail(url="https://n3v.xyz/icons/wormhole-logo.png")
-            embed.set_footer(text = f"Support Server - https://n3v.xyz/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
+            embed.set_thumbnail(url="https://nevalicj.us/icons/wormhole-logo.png")
+            embed.set_footer(text = f"Support Server - https://nevalicj.us/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
 
             for setting in config['General']:
                 embed.add_field(name = f"{setting}:", value = f"{config['General'][setting]}", inline = False)
@@ -178,8 +178,8 @@ class Other(commands.Cog):
             await ctx.send(embed = embed)
 
             embed = discord.Embed(title = f"**Current Config's Invites**", color = discord.Colour.from_rgb(119, 137, 218))
-            embed.set_thumbnail(url="https://n3v.xyz/icons/wormhole-logo.png")
-            embed.set_footer(text = f"Support Server - https://n3v.xyz/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
+            embed.set_thumbnail(url="https://nevalicj.us/icons/wormhole-logo.png")
+            embed.set_footer(text = f"Support Server - https://nevalicj.us/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
 
             no_fields = 0
             for inv in config['Invites']:
@@ -210,8 +210,8 @@ class Other(commands.Cog):
             os.system(f'cd {os.getenv("PWD")}/saved-configs/ && mkdir {ctx.guild.id}')
 
         embed = discord.Embed(title = f"**Saved Configs**", color = discord.Colour.from_rgb(119, 137, 218))
-        embed.set_thumbnail(url="https://n3v.xyz/icons/wormhole-logo.png")
-        embed.set_footer(text = f"Support Server - https://n3v.xyz/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
+        embed.set_thumbnail(url="https://nevalicj.us/icons/wormhole-logo.png")
+        embed.set_footer(text = f"Support Server - https://nevalicj.us/support | Wormhole made with \u2764\ufe0f by Nevalicjus")
         embed.add_field(name = f"Config 0", value = f"Currently used Config", inline = False)
 
         i = 0
@@ -538,7 +538,7 @@ class Other(commands.Cog):
 
     def constructResponseEmbedBase(self, desc):
         embed = discord.Embed(title = f"**Wormhole**", description = desc, color = discord.Colour.from_rgb(119, 137, 218))
-        embed.set_thumbnail(url="https://n3v.xyz/icons/wormhole-logo.png")
+        embed.set_thumbnail(url="https://nevalicj.us/icons/wormhole-logo.png")
         now = datetime.datetime.now()
         embed.set_footer(text = f"{now.strftime('%H:%M')} / {now.strftime('%d/%m/%y')} | Wormhole made with \u2764\ufe0f by Nevalicjus")
 
